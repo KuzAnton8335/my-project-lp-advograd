@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Conv_proximanova-bold';
+  src: url('../fonts/proximanova-bold.eot');
+  src: local('☺'), url('../fonts/proximanova-bold.woff') format('woff'), url('../fonts/proximanova-bold.ttf') format('truetype'), url('    ../fonts/proximanova-bold.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_proximanova-light';
+	src: url('../fonts/proximanova-light.eot');
+	src: local('☺'), url('../fonts/proximanova-light.woff') format('woff'), url('../fonts/proximanova-light.ttf') format('truetype'), url('  ../fonts/proximanova-light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MullerBold';
+	src: url('../fonts/MullerBold.eot');
+	src: local('☺'), url('../fonts/MullerBold.woff') format('woff'), url('../fonts/MullerBold.ttf') format('truetype'), url('../fonts/MullerBold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MullerLight';
+	src: url('../fonts/MullerLight.eot');
+	src: local('☺'), url('../fonts/MullerLight.woff') format('woff'), url('../fonts/MullerLight.ttf') format('truetype'), url('../fonts/MullerLight.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MyriadPro-Bold';
+	src: url('../fonts/MyriadPro-Bold.eot');
+	src: local('☺'), url('../fonts/MyriadPro-Bold.woff') format('woff'), url('../fonts/MyriadPro-Bold.ttf') format('truetype'), url('../fonts/MyriadPro-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+

@@ -1,0 +1,618 @@
+body {
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+/*Стилизация блока шапки*/
+.header_avtograd {
+  width: 100%;
+  min-height: 50px;
+  max-width: 1050px;
+  display: flex;
+  align-items: center;
+  margin-top: 23px;
+  margin-left: 490px;
+}
+
+.telefon_header h2 {
+  font-family: 'Conv_proximanova-bold', sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 900;
+}
+
+ra.header_menu {
+  margin-right: 35px;
+}
+
+.header_menu a {
+  text-decoration: none;
+  padding-left: 35px;
+  font-family: 'Conv_proximanova-light',sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  text-align: center;
+  color:#1c1c1c;
+  transition: all 0.5s ease;
+}
+.header_menu a:hover{
+  cursor: pointer;
+  color: #c91111;
+}
+.header_button button{
+  width: 140px;
+  height: 30px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  background: #c91111;
+  outline: none;
+  font-family: 'Conv_proximanova-bold', sans-serif;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 22px;
+  transition: all 0.5s ease;
+}
+
+.header_button button:hover{
+  background:#fff;
+  color: #c91111;
+  border:1px solid #c91111;
+  cursor:pointer;
+}
+.header_line{
+  width: 1920px;
+  background-color:#f4f4f4;
+  opacity: 0.4;
+}
+.header_logo{
+  width: 1050px;
+  height: 80px;
+  margin-left:487px;
+  display: flex;
+  align-items: center;
+}
+.header_logo h3{
+  padding-left: 170px;
+  font-family: 'Conv_proximanova-light',sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  color:#1c1c1c;
+}
+.header_telefon h2{
+  padding-left: 87px;
+  font-family: 'Conv_proximanova-bold', sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+}
+.header_links_app{
+  margin-left: 30px;
+}
+.header_links_app a{
+  margin-left:10px;
+}
+/*====================================*/
+
+/*Стилизация блока с баннером*/
+.header_banner{
+  width: 1920px;
+  height: 610px;
+  background: url(../img/bg_banner_1.jpg) center center no-repeat;
+}
+.header_banner h1{
+  padding-left: 491px;
+  padding-top: 131px;
+  font-size:32px;
+  font-family: 'Conv_proximanova-bold', sans-serif;
+  font-weight: 800;
+  line-height: 50px;  
+  color:#fff;
+}
+#strong_text_head{
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size:40px;
+  line-height: 50px;
+}
+.banner_text{
+  padding-left: 491px;
+  padding-top: 64px;
+  font-family: 'Conv_proximanova-light',sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  color:#fff;
+}
+#strong_text{
+  font-family: 'Conv_proximanova-light',sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  color:#fff;
+  font-weight: 900;
+}
+.banner_button{
+  margin-top: 71px;
+  margin-left: 491px;
+  width: 299px;
+  height: 65px;
+  
+}
+.banner_button button {
+  width: 336px;
+  height: 65px;
+  color:#fff;
+  border:none;
+  border-radius:5px;
+  outline: none;
+  background: #ca1212;
+  color:#fff;
+  font-family: 'Conv_proximanova-bold', sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 900;
+}
+.banner_button button:hover{
+  background: #fff;
+  color: #ca1212;
+  border:2px solid #ca1212;
+  transition: all 0.5s ease;
+}
+/*================================================*/
+
+/*Стилизация блока с наименования сервисов */
+.services_advograd{
+  width: 1920px;
+  height: 630px;
+  background: #fff;
+}
+.services_head{
+  margin-left: 630px;
+  margin-top: 105px;
+}
+.services_head h2{
+  font-family: 'Conv_proximanova-bold', sans-serif;
+  font-size: 30px;
+  line-height: 22px;
+  font-weight: 900;
+}
+.services_column{
+  width: 870px;
+  height: 430px;
+  margin-top: 100px;
+  margin-left: 523px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.services_item{
+  margin-bottom:95px;
+  margin-right:145px;
+  display: flex;
+  align-items: center;
+}
+.services_item img{
+  margin-right: 30px;
+}
+.services_item a{
+  text-decoration: none;
+  color:#000;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  font-family: 'Conv_proximanova-light',sans-serif;
+}
+.services_item a:hover,
+activ{
+  color: #ca1212;
+  transition: all 0.5s ease;
+}
+
+/*=========================================*/
+
+/*Стилизация блока с информацией сервиса*/
+.services_info{
+  width: 1920px;
+  height: 600px;
+  background: url(../img/info_bg.jpeg) center center no-repeat;
+}
+.services_info h2{
+  opacity:1;
+color:#FFFFFF;
+font-family: 'Conv_proximanova-bold', sans-serif;
+font-size:30px;
+line-height: 22px;
+font-weight: 900;
+text-align: center;
+padding-top: 100px;
+}
+.info_text {
+  width: 865px;
+  height: 114px;
+  margin-top:80px;
+  margin-left: 533px;
+  color:#fff;
+  font-size: 16px;
+  font-family: 'Conv_proximanova-light',sans-serif;
+  line-height: 22px;
+  text-align: center;
+}
+.info_text p{
+  padding-bottom: 20px;
+} 
+.info_number_static{
+  width: 860px;
+  height: 60px;
+  margin-top:85px;
+  margin-left:533px;
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info_number{
+  text-align: center;
+  width: 156px;
+  height: 76px;
+  position: relative;
+}
+#number_services{
+  font-family: 'Conv_proximanova-bold', sans-serif;
+font-size:48px;
+line-height: 22px;
+font-weight: 900;
+text-align: center;
+color: #fff;
+}
+#strong_numbers{
+font-family: 'Conv_proximanova-bold', sans-serif;
+font-size:24px;
+line-height: 22px;
+font-weight: 900;
+color: #fff;
+position: absolute;
+left: 150px;
+top:56px;
+}
+.info_number_static .info_number p{
+  color:#fff;
+  font-size: 16px;
+  font-family: 'Conv_proximanova-light',sans-serif;
+  line-height: 22px;
+  text-align: center;
+}
+/*=========================================================*/
+
+/*Стилизация блока с премуществовами*/
+
+.the_provision__services{
+  width: 1920px;
+  height: 500px;
+  background: #f5f5f5;
+}
+
+.the_provision__services h2{
+  padding-top:100px;
+  padding-left: 791px;
+  font-family: 'Conv_proximanova-bold', sans-serif;
+  font-size:30px;
+  line-height: 22px;
+  font-weight: 900;
+}
+.provision_content{
+  max-width: 100%;
+  height: 180px;
+  width: 1500px;
+  margin-top:90px;
+  margin-left:321px;
+  display: flex;
+  align-items: center;
+}
+.provision_item{
+  width: 363px;
+  height: 180px;
+  margin-left:68px;
+}
+.provision_item img{
+  margin-left:120px;
+}
+.provision_item p{
+  font-family: 'Conv_proximanova-light',sans-serif;
+  font-size: 16pt;
+  line-height: 22px;
+color: rgba(28, 28, 28, 255);
+text-align: center;
+padding-top:90px;
+}
+.provision_text_2{
+  margin-top: 27px;
+}
+.provision_text_3{
+  margin-top:29px;
+}
+#strong_prevision{
+   font-family: 'Conv_proximanova-bold', sans-serif;
+  font-size:16px;
+  line-height: 22px;
+  font-weight: 900;
+}
+
+/*===================================*/
+
+/*Стилизация блока power_services*/
+
+.power_services{
+  width: 1920px;
+  height: 640px;
+  background: #fff;
+}
+.table_and_power_users{
+  display: flex;
+}
+.power_services h2{
+  text-align: center;
+  padding-top: 105px;
+  padding-left: 90px;
+  padding-bottom: 87px;
+  font-family: 'Conv_proximanova-bold', sans-serif;
+  font-size:30px;
+  line-height: 50px;
+  font-weight: 900;
+}
+.table_power{
+  width: 724px;
+  height: 300px;
+  margin-left: 460px;
+  text-align: center;
+  font-family: 'Conv_proximanova-light',sans-serif;
+  font-size: 13px;
+  line-height: 45px;
+  border-collapse: collapse;
+  border:1px solid #e8e8e8;
+}
+.table_power th{ 
+  font-family: 'Conv_proximanova-bold', sans-serif;
+  font-size:14px;
+  line-height: 40px;
+  font-weight: 900;
+}
+.none_table{
+  width:193px;
+}
+.line_table{
+  width: 210px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.green_table {
+  width: 210px;
+  background: #26b83a;
+  color:#fff;
+}
+.power_users{
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.power_users h3{
+  font-family: 'Conv_proximanova-bold', sans-serif;
+  font-size:16px;
+  font-weight: 900;
+  padding-bottom: 30px;
+}
+.user_item{
+  display: flex;
+  align-items: center;
+}
+.user_item p{
+  padding-left: 20px;
+  font-family: 'Conv_proximanova-light',sans-serif;
+  font-size: 13px;
+  text-align: center;
+}
+#strong_user_text{
+  font-family: 'Conv_proximanova-bold', sans-serif;
+  font-size:15px;
+  font-weight: 900;
+  text-align: center;
+}
+.power_services_link{
+  margin-top:36px;
+}
+.power_services_link a{
+  text-decoration: none;
+  font-family: 'Conv_proximanova-bold', sans-serif;
+  font-size:18px;
+  font-weight: 900;
+  background: #d62020;
+  color:#fff;
+  padding: 20px 60px;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+.power_services_link a:hover{
+ color:#d62020;
+ background: #fff;
+ border:1px solid #d62020;
+}
+/*================================================*/
+
+/*Стилизация блока app_avtograd*/
+.app_avtograd{
+  width: 1920px;
+  height: 470px;
+  background: url(../img/bg_app_avt.jpg) center center no-repeat;
+}
+.app_head h2{
+  padding-top: 105px;
+  padding-left: 490px;
+  color:#fff;
+  font-family: 'MullerBold',sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+.app_link__text_info{
+  display: flex;
+  margin-top:85px;
+  margin-left:468px;
+  position: relative;
+}
+
+.app_text_info p{
+  font-family: 'MullerLight',sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color:#fff;
+}
+.app_text_info p a{
+  font-family: 'MullerLight',sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color:#fff;
+  text-decoration: none;
+}
+.app_text_info p a:hover{
+  text-decoration: underline;
+}
+.app_numbers{
+  font-family: 'MullerLight',sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color:#e41e1e;
+  padding-left:24px;
+}
+.app_link{
+  width: 208px;
+  height: 181px;
+  margin-left: 164px;
+  position: absolute;
+  left:500px;
+  top:-112px;
+}
+.android_link{
+  margin-bottom: 34px;
+}
+
+.video__reviews{
+  width: 1920px;
+  height: 660px;
+  background: #f5f5f5;
+}
+.video__reviews h2{
+  padding-top: 104px;
+  padding-left: 896px;
+  font-family: 'MullerBold',sans-serif;
+  font-size: 30px;
+  font-weight: 600; 
+}
+
+.slider_navigation{
+  margin-top: 82px;
+  margin-left:681px;
+}
+
+.slider_navigation a{
+  text-decoration: none;
+  padding-left: 36px;
+  text-transform: uppercase;
+  font-family: 'MyriadPro-Bold', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color:#000;
+}
+/*стили слайдера*/
+
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    width: 936px;
+    margin-top:80px;
+    margin-left:400px;
+  }
+
+  .slider__wrapper {
+    display: flex;
+    transition: transform 0.6s ease;
+  }
+
+  .slider__item {
+    box-sizing: border-box;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    margin-left:22px;
+  }
+
+  .slider__control {
+    position: absolute;
+    top: 50%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    color: #fff;
+    text-align: center;
+    opacity: 0.5;
+    height: 50px;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, .5);
+  }
+
+  .slider__control_show {
+    display: flex;
+  }
+
+  .slider__control:hover,
+  .slider__control:focus {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    opacity: .9;
+  }
+
+  .slider__control_left {
+    left: 0;
+  }
+
+  .slider__control_right {
+    right: 0;
+  }
+
+  .slider__control::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+  }
+
+  .slider__control_left::before {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  }
+
+  .slider__control_right::before {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  }
+
+  .slider__item>div {
+    line-height: 250px;
+    font-size: 100px;
+    text-align: center;
+  }
